@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('cpdlog/', include('cpdlog.urls')),
     path('darts/', include('darts.urls')),
+    path('studyplan/', include('studyplan.urls')),
 ]
